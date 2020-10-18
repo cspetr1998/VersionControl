@@ -1,4 +1,5 @@
-﻿using _6gyak.MnbServiceReference;
+﻿using _6gyak.Entities;
+using _6gyak.MnbServiceReference;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,6 +32,10 @@ namespace _6gyak
 
            
             var result = response.GetExchangeRatesResult;
+
+            BindingList<RateData> Rates = new BindingList<RateData>();
+
+            dataGridView1.DataSource = Rates;
         }
     }
 }
