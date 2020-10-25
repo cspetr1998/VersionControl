@@ -15,4 +15,17 @@ namespace _7gyakorlat.Entities
     // Példa enumerációs változók használatára
     Gender ádámNeme = Gender.Male;
     Gender évaNeme = (Gender)2;
+
+    public class Person
+    {
+        public int BirthYear { get; set; }
+        public Gender Gender { get; set; }
+        public int NbrOfChildren { get; set; }
+        public bool IsAlive { get; set; }
+
+        public Person()
+        {
+            IsAlive = true;
+        }
+    }
 }
