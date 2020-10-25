@@ -27,5 +27,7 @@ namespace _7gyakorlat.Entities
         {
             IsAlive = true;
         }
+
+        Random rng = new Random(1234);
     }
 }

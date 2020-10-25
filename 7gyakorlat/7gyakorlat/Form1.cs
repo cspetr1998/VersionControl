@@ -17,6 +17,7 @@ namespace _7gyakorlat
         public Form1()
         {
             InitializeComponent();
+           
 
             List<Person> Population = new List<Person>();
         }
