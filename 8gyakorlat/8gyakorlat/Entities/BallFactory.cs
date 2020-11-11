@@ -12,9 +12,9 @@ namespace _8gyakorlat.Entities
 {
     public partial class BallFactory : Form
     {
-        public BallFactory()
+        public Ball CreateNew()
         {
-            InitializeComponent();
+            return new Ball();
         }
     }
 }
