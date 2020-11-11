@@ -47,10 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Ball.cs">
-      <SubType>Form</SubType>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Entities\Ball.Designer.cs">
       <DependentUpon>Ball.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BallFactory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entities\BallFactory.Designer.cs">
+      <DependentUpon>BallFactory.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
