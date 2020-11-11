@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace _8gyakorlat.Entities
 {
-    public partial class Ball : Label
+    public partial class Ball : Form
     {
         public Ball()
         {
