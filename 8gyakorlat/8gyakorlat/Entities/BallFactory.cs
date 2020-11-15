@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _8gyakorlat.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,10 @@ using System.Windows.Forms;
 
 namespace _8gyakorlat.Entities
 {
-    public partial class BallFactory : Form
+    public partial class BallFactory : IToyFactory
+
     {
-        public Ball CreateNew()
+        public Toy CreateNew()
         {
             return new Ball();
         }
