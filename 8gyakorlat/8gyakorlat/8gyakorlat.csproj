@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\ICarFactory.cs" />
     <Compile Include="Abstractions\IToyFactory.cs" />
     <Compile Include="Abstractions\Toy.cs">
       <SubType>Component</SubType>
@@ -56,9 +57,7 @@
     <Compile Include="Entities\Ball.Designer.cs">
       <DependentUpon>Ball.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\BallFactory.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Entities\BallFactory.cs" />
     <Compile Include="Entities\BallFactory.Designer.cs">
       <DependentUpon>BallFactory.cs</DependentUpon>
     </Compile>
