@@ -61,6 +61,9 @@
     <Compile Include="Entities\BallFactory.Designer.cs">
       <DependentUpon>BallFactory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Car.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
